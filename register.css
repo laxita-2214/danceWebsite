@@ -1,0 +1,101 @@
+body{
+	 background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(wall1.jpeg);
+	 background-size: cover;
+	 background-position: center;
+	 width: 97%;
+	 height: 610px;
+}
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+	margin-top: 25px;
+
+}
+#menu{
+	list-style-type:none;
+	position: relative;
+	top:20px;
+	padding:0;
+	overflow:hidden;
+}
+#items{
+	float:right;
+}
+body a:link, a:visited{
+	display: block;
+	width:120px;
+	font-weight:bold;
+	color:gold;
+	background-color:none;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+body a:hover, a:active{
+	color:white;
+}
+.title h1{
+	position: relative;
+	padding-top: 40px;
+	padding-left: 500px;
+	color: white;
+}
+.formbody{
+	margin:0;
+	height: 480px;
+	width: 450px;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	position: absolute;
+	top:170px;
+	left:470px;
+	background:gold;
+	padding: 25px;
+	border-radius: 10px; 
+}
+.formbody h2{
+	text-align: center;
+	margin-top: 20px;
+	letter-spacing: 3px;
+	color: #332902;
+}
+.formbody .input_field{
+	margin-bottom: 10px;
+}
+.formbody .input_field input[type="text"],
+.formbody textarea{
+	width: 90%;
+	border: 1px solid #e0e0e0;
+	margin-left: 10px;
+	padding: 12px;
+}
+.formbody .btn input[type="submit"]{
+	border: 0;
+	margin-top: -5px;
+	position: relative;
+	left: 20px;
+	height: 30px;
+	width: 90%;
+	background:white;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: bold;
+	border-radius:10px;
+	cursor: pointer;
+}
+.formbody #error_mes{
+	border-radius: 10px;
+	width: 300px;
+	margin-left: 43px;
+	padding: 0px;
+	color: red;
+	text-align: center;
+	font-size: 15px;
+	transition: 0.5s ;
+	position: relative;
+	top:10px;
+}

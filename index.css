@@ -1,0 +1,59 @@
+body{
+	 background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(wall1.jpeg);
+	 background-size: cover;
+	 background-position: center;
+	 width: 97%;
+	 height: 610px;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+	margin-top: 25px;
+}
+#menu{
+	list-style-type:none;
+	position: relative;
+	top:20px;
+	padding:0;
+	overflow:hidden;	
+}
+#items{
+	float:right;
+}
+a:link, a:visited{
+	display: block;
+	width:120px;
+	font-weight:bold;
+	color:gold;
+	background-color:none;
+	text-align:center;
+	padding:4px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+a:hover, a:active{
+	color:white;
+}
+.learn h3{
+	position: relative;
+	top:190px;
+	left:330px;
+	width: 150px;
+	cursor: pointer;
+	color: gold;
+}
+.learn h3:hover{
+	color: white;
+	text-transform: ease 0.5;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.title h1{
+	color: #fff;
+	font-size:  70px;
+}
